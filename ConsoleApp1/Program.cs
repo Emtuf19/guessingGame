@@ -30,7 +30,7 @@ namespace GuessingGame
                 }
                 else
                 {
-                    Console.WriteLine("Wrong name, try again! tries left: " + (4 - i));
+                    Console.WriteLine("Wrong name, try again! tries left: " + ((maxTrials - 1) - i));
                 }
             }
             
